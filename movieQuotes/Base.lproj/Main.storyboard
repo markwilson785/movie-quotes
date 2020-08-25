@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="movieQuotes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Movie Quotes! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2If-Pp-Dmc">
+                                <rect key="frame" x="149.5" y="97" width="115" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY6-E7-uo8">
+                                <rect key="frame" x="168.5" y="762" width="77" height="30"/>
+                                <state key="normal" title="New Quote"/>
+                                <connections>
+                                    <action selector="newQuoteAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P6k-wS-0Uu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIz-NX-pSD">
+                                <rect key="frame" x="30" y="147.5" width="354" height="584.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oIz-NX-pSD" secondAttribute="trailing" constant="30" id="024-5N-30y"/>
+                            <constraint firstItem="oIz-NX-pSD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="1Jw-hN-f8Q"/>
+                            <constraint firstItem="LY6-E7-uo8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EVb-qs-bJV"/>
+                            <constraint firstItem="2If-Pp-Dmc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="Ntf-Ts-l6y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LY6-E7-uo8" secondAttribute="bottom" constant="70" id="f7f-4z-X8M"/>
+                            <constraint firstItem="2If-Pp-Dmc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nrO-oA-UjW"/>
+                            <constraint firstItem="LY6-E7-uo8" firstAttribute="top" secondItem="oIz-NX-pSD" secondAttribute="bottom" constant="30" id="vtB-XZ-mya"/>
+                            <constraint firstItem="oIz-NX-pSD" firstAttribute="top" secondItem="2If-Pp-Dmc" secondAttribute="bottom" constant="30" id="ymM-pq-kjS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="displayQouteLabel" destination="oIz-NX-pSD" id="grZ-46-2Bh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+</document>
