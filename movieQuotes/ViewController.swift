@@ -14,11 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        guard let path = Bundle.main.path(forResource: "movieQuotes", ofType: "json"), let pathURL = URL(string: path), let data = try? Data(contentsOf: pathURL) else
-        {
-           print(Bundle.main.path(forResource: "movieQuotes", ofType: "json"))
-            return}
+        let path = Bundle.main.path(forResource: "moviesQuotes", ofType: "json")!
+        let pathURL = URL(fileURLWithPath: path)
+        
+        
+        
         do{
+            let data = try Data(contentsOf: pathURL)
             let quotes = try JSONDecoder().decode([MovieQuote].self, from:data)
             print(quotes)
         }

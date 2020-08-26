@@ -1,0 +1,143 @@
+[
+    {
+        "id":1,
+        "text":"I feel like I’m taking crazy pills",
+        "characterName": "Mugatu",
+        "movieTitle": "Zoolander"
+    },
+    {
+        "id":2,
+        "text":"Stay classy, San Diego",
+        "characterName": "Ron Burgundy",
+        "movieTitle": "Anchorman"
+    },
+    {
+     
+        "id":3,
+        "text":"Son of a nutcracker",
+        "characterName": "Buddy the elf",
+        "movieTitle": "Elf"
+    },
+    {
+        "id":4,
+        "text":"If we went to a halloween party dressed as batman and robin, I’d go as robin. That’s how much you mean to me",
+        "characterName":"Chazz Michael Michaels",
+        "movieTitle":"Blades of glory"
+    },
+    {
+        "id":5,
+        "text":"There’s a benefit to losing, you get to learn from your mistakes",
+        "characterName":"MagaMind",
+        "movieTitle":"MagaMind"
+    },
+    {
+        "id":6,
+        "text":"Moisture is the essence of wetness",
+        "characterName":"Derek Zoolander",
+        "movieTitle":"Zoolander"
+   },
+    {
+        "id":7,
+        "text":"Baxter, is that you? Baxter! Bark twice if you’re in Milwaukee",
+        "characterName":"Ron Burgundy",
+        "movieTitle":"Anchorman"
+    },
+    {
+        "id":8,
+        "text":"It’s so damn hot. Milk was a bad choice",
+        "characterName":"Ron Burgundy",
+        "movieTitle":"Anchorman"
+    },
+    {
+        "id":9,
+        "text":"I’m in a glass case of emotion",
+        "characterName":"Ron Burgundy",
+        "movieTitle":"Anchorman"
+    },
+    {
+        "id":10,
+        "text":"If I’m not back in 5 minutes, just wait longer",
+        "characterName":"Ace Ventura",
+        "movieTitle":"Ace Ventura Pet Detective"
+    },
+    {
+        "id":11,
+        "text":"All righty then",
+        "characterName":"Ace Ventura",
+        "movieTitle":"Ace Ventura Pet Detective"
+    },
+    {
+        "id":12,
+        "text":"We got no food, we got no jobs, our pets heads are falling off",
+        "characterName":"Lloyd",
+        "movieTitle":"Dumb and Dumber"
+    },
+    {
+        "id":13,
+        "text":"You can’t triple stamp a double stamp",
+        "characterName":"Harry",
+        "movieTitle":"Dumb and Dumber"
+    },
+    {
+        "id":14,
+        "text":"Big Gulps, Huh? Alright",
+        "characterName":"Lloyd",
+        "movieTitle":"Dumb and Dumber"
+    },
+    {
+        "id":15,
+        "text":"Why you going to the airport? Flying somewhere?",
+        "characterName":"Llyod",
+        "movieTitle":"Dumb and Dumber"
+    },
+    {
+        "id":16,
+        "text":"We landed on the moon",
+        "characterName":"Llyod",
+        "movieTitle":"Dumb and Dumber"
+    },
+    {
+        "id":17,
+        "text":"Just when I think you couldn't possibly be any dumber, you go and do something like this and totally redeem yourself",
+        "characterName":"Harry",
+        "movieTitle":"Dumb and Dumber"
+        },
+        {
+            "id":18,
+            "text":"Part of the journey is the end",
+            "characterName":"Tony Stark",
+            "movieTitle":"Avengers End game"
+        },
+        {
+            "id":19,
+            "text":"The hardest choices require the strongest wills",
+            "characterName":"Thanos",
+            "movieTitle":"Avengers infinity war"
+        },
+        {
+            "id":20,
+            "text":"I choose to run towards my problems, and not away from them. Because’s that– because’s that what heroes do",
+            "characterName":"Thor",
+            "movieTitle":"Thor Ragnarok"
+        },
+        {
+            "id":21,
+            "text":"Faith is my sword. Truth is my shield. Knowledge my armor",
+            "characterName":"Stephen Strange",
+            "movieTitle":"Doctor Strange"
+        },
+        {
+            "id":22,
+            "text":"Hulk Smash",
+            "characterName":"Bruce Banner",
+            "movieTitle":"The Incredible Hulk"
+        },
+        {
+            "id":23,
+            "text":"Sir, I’m going to have to ask you to exit the donut",
+            "characterName":"Nick Fury",
+            "movieTitle":"Iron man 2"
+
+        }
+]
+

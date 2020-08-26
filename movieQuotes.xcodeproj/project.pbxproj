@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C1437D6224EC22F800578E1E /* MovieQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1437D6124EC22F800578E1E /* MovieQuote.swift */; };
+		C1437D6424F6AB1A00578E1E /* moviesQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = C1437D6324F6AB1A00578E1E /* moviesQuotes.json */; };
 		C1838DA824D07F61008B5421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1838DA724D07F61008B5421 /* AppDelegate.swift */; };
 		C1838DAA24D07F61008B5421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1838DA924D07F61008B5421 /* SceneDelegate.swift */; };
 		C1838DAC24D07F61008B5421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1838DAB24D07F61008B5421 /* ViewController.swift */; };
 		C1838DAF24D07F61008B5421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1838DAD24D07F61008B5421 /* Main.storyboard */; };
 		C1838DB124D07F66008B5421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1838DB024D07F66008B5421 /* Assets.xcassets */; };
 		C1838DB424D07F66008B5421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1838DB224D07F66008B5421 /* LaunchScreen.storyboard */; };
-		C1838DBC24DB0AAE008B5421 /* movieQuotes.json in Sources */ = {isa = PBXBuildFile; fileRef = C1838DBB24DB0AAE008B5421 /* movieQuotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1437D6124EC22F800578E1E /* MovieQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuote.swift; sourceTree = "<group>"; };
+		C1437D6324F6AB1A00578E1E /* moviesQuotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = moviesQuotes.json; sourceTree = "<group>"; };
 		C1838DA424D07F61008B5421 /* movieQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1838DA724D07F61008B5421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1838DA924D07F61008B5421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		C1838DB024D07F66008B5421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1838DB324D07F66008B5421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1838DB524D07F66008B5421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1838DBB24DB0AAE008B5421 /* movieQuotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movieQuotes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				C1838DAB24D07F61008B5421 /* ViewController.swift */,
 				C1437D6124EC22F800578E1E /* MovieQuote.swift */,
 				C1838DAD24D07F61008B5421 /* Main.storyboard */,
-				C1838DBB24DB0AAE008B5421 /* movieQuotes.json */,
+				C1437D6324F6AB1A00578E1E /* moviesQuotes.json */,
 				C1838DB024D07F66008B5421 /* Assets.xcassets */,
 				C1838DB224D07F66008B5421 /* LaunchScreen.storyboard */,
 				C1838DB524D07F66008B5421 /* Info.plist */,
@@ -132,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1838DB424D07F66008B5421 /* LaunchScreen.storyboard in Resources */,
+				C1437D6424F6AB1A00578E1E /* moviesQuotes.json in Resources */,
 				C1838DB124D07F66008B5421 /* Assets.xcassets in Resources */,
 				C1838DAF24D07F61008B5421 /* Main.storyboard in Resources */,
 			);
@@ -145,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1838DAC24D07F61008B5421 /* ViewController.swift in Sources */,
-				C1838DBC24DB0AAE008B5421 /* movieQuotes.json in Sources */,
 				C1437D6224EC22F800578E1E /* MovieQuote.swift in Sources */,
 				C1838DA824D07F61008B5421 /* AppDelegate.swift in Sources */,
 				C1838DAA24D07F61008B5421 /* SceneDelegate.swift in Sources */,
