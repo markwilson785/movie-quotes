@@ -7,15 +7,20 @@
 //
 
 import Foundation
-struct MovieQuotesController {
+class MovieQuotesController {
     static var singleton = MovieQuotesController()
-
-    var quotes: [MovieQuote]
-
+    
+    var allQuotes: [MovieQuote]
+    var availableQutoes: [MovieQuote]
+    
     func getRandomQuote() -> MovieQuote{
-        let randomInt = Int.random(in: 0..<quotes.count)
-       return quotes[randomInt]
-        
+        if availableQutoes.count == 0 {
+            resetAvailableQuotes()
+        }
+        let randomInt = Int.random(in: 0..<availableQutoes.count)
+        let randomQuote = availableQutoes[randomInt]
+        availableQutoes.remove(at: randomInt)
+        return randomQuote
     }
     
     init(){
@@ -23,13 +28,18 @@ struct MovieQuotesController {
         let pathURL = URL(fileURLWithPath: path)
         do{
             let data = try Data(contentsOf: pathURL)
-            self.quotes = try JSONDecoder().decode([MovieQuote].self, from:data)
+            self.allQuotes = try JSONDecoder().decode([MovieQuote].self, from:data)
+            availableQutoes = allQuotes 
+            
         }
         catch{
             print(error)
             fatalError()
         }
     }
-    
+    func resetAvailableQuotes() {
+        availableQutoes = allQuotes
+        
+    }
 }
 

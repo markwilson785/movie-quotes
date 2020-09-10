@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //for i in 0...35{
+         //   print(MovieQuotesController.singleton.availableQutoes.count)
+           // MovieQuotesController.singleton.getRandomQuote()
+        //}
         // Override point for customization after application launch.
         return true
     }

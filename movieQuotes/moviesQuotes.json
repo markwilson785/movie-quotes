@@ -143,31 +143,31 @@
             "id":24,
             "text":"Don’t do anything I would do, and definitely don’t do anything I wouldn’t do. There’s a little gray area in there, and that’s where you operate",
             "characterName":"Tony Stark",
-            "movietitle":"Spider-man Homecoming"
+            "movieTitle":"Spider-man Homecoming"
             
         },
         {
             "id":25,
             "text":"If toast is cut diagonally, I can’t eat it",
-            "charaterName":"Nick Fury",
+            "characterName":"Nick Fury",
             "movieTitle":"Captain Marvel"
 
         },
         {
             "id":26,
             "text":"Excuse me, sir! I can help! Let me help! I'm really strong and I'm… sticky",
-            "charaterName":"Peter Parker",
+            "characterName":"Peter Parker",
             "movieTitle":"Spider-man far from home"
         },
         {
             "id":27,
             "text":"I love you 3000",
-            "charaterName":"Tony Stark",
+            "characterName":"Tony Stark",
             "movieTitle":"Avengers End Game"
             
         },
-        {
+        
             
-        }
+        
 ]
 

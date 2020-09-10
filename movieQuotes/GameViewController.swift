@@ -15,7 +15,8 @@ class GameViewController: UIViewController {
     var timerCount = 30
     
     @IBOutlet weak var displayTimer: UILabel!
-   
+    @IBOutlet weak var team1Score: UILabel!
+    
     @IBAction func startTimerButton(_ sender: Any) {
         timerCount = 30
         self.displayTimer.text = "\(self.timerCount)"
@@ -37,6 +38,11 @@ class GameViewController: UIViewController {
         }
     }
    
+    @IBAction func team1SteperTap(_ sender: UIStepper) {
+        team1Score.text = "\(Int(sender.value))"
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
