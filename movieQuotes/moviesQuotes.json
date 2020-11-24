@@ -166,8 +166,149 @@
             "movieTitle":"Avengers End Game"
             
         },
-        
-            
-        
+        {
+            "id":28,
+            "text":"We're going steaking",
+            "characterName":"Frank The Tank",
+            "movieTitle":"Old School"
+        },
+        {
+            "id":29,
+            "text":"Did we just become best friends",
+            "characterName":"Brennan Huff",
+            "movieTitle":"Step Brothers"
+        },
+        {
+            "id":30,
+            "text":"Quit looking at me swan",
+            "characterName":"Billy Madison",
+            "movieTitle":"Billy Madison"
+        },
+        {
+            "id":31,
+            "text":"Yeah, I always felt a man's grip on his club just like a man's grip on his world",
+            "characterName":"Bagger Vance",
+            "movieTitle":"The Legend of Bagger Vance"
+        },
+        {
+            "id":32,
+            "text":"All it takes is faith and trust",
+            "characterName":"Peter Pan",
+            "movieTitle":"Peter Pan"
+        },
+        {
+            "id":33,
+            "text":"Stand tall. fly straight. U.S.A. all the way",
+            "characterName":"Gordon Bombay",
+            "movieTitle":"Mighty Ducks"
+        },
+        {
+            "id":34,
+            "text":"Hamburgers. the conerstone of any nutritous breakfast",
+            "characterName":"Jules Winnfield",
+            "movieTitle":"Pulp Fiction"
+        },
+        {
+            "id":35,
+            "text":"Don't mess the bull, young man. You'll get the horns",
+            "characterName":"Richard Vernon",
+            "movieTitle":"The Breakfast Club"
+        },
+        {
+            "id":36,
+            "text":"I'm a mog. half man. half dog. I'm my own best firend",
+            "characterName":"Barf",
+            "movieTitle":"Spaceballs"
+        },
+        {
+            "id":37,
+            "text":"It's a little childish and stupid. but then. so is high school",
+            "characterName":"Farris Bueller",
+            "movieTitle":"Farris Bueller's day off"
+        },
+        {
+            "id":38,
+            "text":"A man who doesn't spend time with his family can never be a real man",
+            "characterName":"Don vito Corleone",
+            "movieTitle":"The Godfather"
+        },
+        {
+            "id":39,
+            "text":"Whoa. take'er easy there. Pilgrim",
+            "characterName":"Tom Doniphon",
+            "movieTitle":"The man who shot liberty valance"
+        },
+        {
+            "id":40,
+            "text":"Guns. Lots of guns",
+            "characterName":"John Wick",
+            "movieTitle":"John Wick"
+        },
+        {
+            "id":41,
+            "text":"This isn't charity. it's family",
+            "characterName":"Clark Griswold",
+            "movieTitle":"National Lampoon's Christmas Vacation"
+        },
+        {
+            "id":42,
+            "text":"It's a blazer out there. You're lucky you got air conditioning in here like mother nature intended",
+            "characterName":"Cousin Eddie",
+            "movieTitle":"Vegas Vacation"
+        },
+        {
+            "id":43,
+            "text":"Every man dies, not every man truly lives",
+            "characterName":"William Wallace",
+            "movieTitle":"Braveheart"
+        },
+        {
+            "id":44,
+            "text":"Frankly my dear, I don't give a damn",
+            "characterName":"Rhett Butler",
+            "movieTitle":"Gone with the wind"
+        },
+        {
+            "id":44,
+            "text":"I want my two dollors",
+            "characterName":"Paperboy",
+            "movieTitle":"Better off Dead"
+        },
+        {
+           "id":45,
+           "text":"I don't scatch my head unless it itches and i don't dance unless i hear some music",
+           "characterName":"Coach Herman Boone",
+           "movieTitle":"Remember The Titans"
+        },
+        {
+           "id":46,
+           "text":"You're killin me smalls",
+           "characterName":"Ham",
+           "movieTitle":"THe Sandlot"
+        },
+        {
+           "id":47,
+           "text":"Pain heals. Chick dig scars. Glory last forever",
+           "characterName":"Shane Falco",
+           "movieTitle":"The Replacements"
+        },
+        {
+           "id":48,
+           "text":"I just wanna hang out. no big deal",
+           "characterName":"Chip Douglas",
+           "movieTitle":"The Cable Guy"
+        },
+        {
+           "id":49,
+           "text":"I don't evern own a gun. let alone many guns that would necessitate an entie rack",
+           "characterName":"Wayne",
+           "movieTitle":"Wayne's World"
+        },
+        {
+          "id":50,
+          "text":"Garth. Marriage is punishment for shoplifting in some countries",
+          "characterName":"Wayne",
+          "movieTitle":"Wayne's World"
+        },
 ]
 

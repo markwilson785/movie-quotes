@@ -17,8 +17,23 @@ class StartScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    
+
+            }
+        }
+    
+//import SwiftUI
+//
+//struct contentView: view {
+//    var body: some view {
+//        Image("movieScreen")
+//        .resizable()
+//        .scaledToFit()
+//    }
+        
+        
         // Do any additional setup after loading the view.
-    }
+    
     
 
     /*
@@ -31,4 +46,4 @@ class StartScreenViewController: UIViewController {
     }
     */
 
-}
+
